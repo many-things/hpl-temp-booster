@@ -1,0 +1,9 @@
+*
+
+!index.ts
+!src/
+!.yarn/
+!yarnrc.yml
+!yarn.lock
+!package.json
+!tsconfig.json

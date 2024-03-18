@@ -1,0 +1,42 @@
+{
+  "name": "@many-things/hpl-temp-booster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "byeongsu-hong <hong@byeongsu.dev>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --loader:.node=file --target=node20 --outdir=dist"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/chai": "^4.2.0",
+    "@types/chai-as-promised": "^7.1.6",
+    "@types/mocha": "^10.0.6",
+    "@types/node": ">=16.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "chai": "^4.2.0",
+    "esbuild": "^0.20.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "prettier-plugin-solidity": "^1.3.1",
+    "solc": "0.8.23",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.3.2",
+    "typescript": "~5.0.4"
+  },
+  "dependencies": {
+    "@hyperlane-xyz/core": "^3.6.2",
+    "@openzeppelin/contracts": "4.9.3",
+    "@openzeppelin/contracts-upgradeable": "4.9.3",
+    "@sentry/node": "^7.106.1",
+    "@sentry/profiling-node": "^7.106.1",
+    "chalk": "^4",
+    "commander": "^12.0.0",
+    "viem": "^1.15.1"
+  },
+  "packageManager": "yarn@4.1.1"
+}
