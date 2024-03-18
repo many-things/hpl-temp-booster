@@ -1,6 +1,15 @@
 # Hyperlane Booster (Temp)
 
-## Desc
+## Features
+* Sync
+    * Fetch & load dispatch event
+    * Merge checkpoints with dispatch event
+* Flush
+    * L1 -> L2 messaging
+    * L2 -> L1 messaging
+
+## Limit
+* This is temporary project to process massive traffic of betatest application
 * Must inject with local checkpoint environment
 * Checkpoints should structured like this
   ```
