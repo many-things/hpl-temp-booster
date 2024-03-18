@@ -1,5 +1,7 @@
 # Hyperlane Booster (Temp)
 
+## Configure -> check [`.env.example`](.env.example)
+
 ## Features
 * Sync
     * Fetch & load dispatch event
