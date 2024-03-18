@@ -11,7 +11,7 @@
 ## Limit
 * This is temporary project to process massive traffic of betatest application
 * Must inject with local checkpoint environment
-* Checkpoints should structured like this
+* Checkpoints should be structured like this
   ```
   ├── data
   │   ├── relayer
